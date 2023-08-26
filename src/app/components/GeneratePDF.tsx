@@ -25,7 +25,9 @@ const GeneratePdf = () => {
 
   return (
     <div>
-      <button onClick={handleClick}>Generate PDF</button>
+        
+            <button onClick={handleClick}>Generate PDF</button>
+        
     </div>
   );
 };
