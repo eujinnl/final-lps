@@ -15,12 +15,19 @@ const Navbar = () => {
                   <p>Contact</p>
             </Link>
         </li>
-        <li><Link href="/products">
-                  <p>Products</p>
-              </Link>
+        <li><Link href="/pdf_gen">
+                  <p>PDF Generator</p>
+            </Link>
         </li>
+        
       </ul>
     </nav>
   );
 };
 export default Navbar;
+
+/*
+<li><Link href="/pdf_gen">
+                  <p>pdf_gen</p>
+              </Link>
+        </li>*/
